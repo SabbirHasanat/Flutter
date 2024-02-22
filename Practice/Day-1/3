@@ -1,0 +1,23 @@
+import 'package:flutter/material.dart';
+
+void main() => runApp(MyApp());
+
+class MyApp extends StatelessWidget{
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: SafeArea(
+        child: Scaffold(
+          body: Container(
+            height: 100,
+            width: 150,
+            //color: Colors.blueAccent,
+            decoration: BoxDecoration(color: Colors.blueAccent,),
+            child: Text("Iam Developer", style: TextStyle(fontSize: 20,)),
+          ),
+          ),
+        ),
+      );
+  }
+}
