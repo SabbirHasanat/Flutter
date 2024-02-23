@@ -1,0 +1,11 @@
+return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: SafeArea(
+        child: Scaffold(
+          appBar: AppBar(title: Text("Appbar"),centerTitle: true,),
+          body: Center(
+            child: Image.asset("images/image.png"),
+          ),
+        ),
+      ),
+    );
